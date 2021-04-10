@@ -47,7 +47,7 @@ app.post('/cids', (req, res) => {
     if (anamnese) {
         res.status(200).json(fakeCIDS);
     } else {
-        res.status(400).json({ message: 'ERROR!!!' });
+        res.status(400).json({ message: 'ERROR!!!'   });
     }
 });
 
